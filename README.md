@@ -4,6 +4,7 @@ Always wanted to upload files bigger than 25Mo/500Mo on Discord ? I present to y
 ## How to use it
 
 Just drag and drop a `.diskord` file on diskord.exe, or use `node diskord.js <file.diskord>`. Use --help to know more.  
+(You need NodeJS to use it)  
 
 ### How to use it - Config
 
