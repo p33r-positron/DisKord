@@ -5,6 +5,15 @@ Always wanted to upload files bigger than 25Mo/500Mo on Discord ? I present to y
 
 Just drag and drop a `.diskord` file on diskord.exe, or use `node diskord.js <file.diskord>`. Use --help to know more.  
 
+### How to use it - Config
+
+There are two config files that are given with DisKord, `configwin32.json` and `configlinux.json`.  
+By default, DisKord will use config.json, and if it does not find it, it will use configPLATFORM.json where PLATFORM is one of these values:  
+`'aix', 'darwin', 'freebsd','linux', 'openbsd', 'sunos', 'win32'`  
+If you use Microsoft Windows, I recommend using `DisKord_win32_7za_wget` which gives you everything you need.  
+If you use GNU/Linux, you should either install p7zip or modify the config.  
+You can modify the config, e.g. to replace wget by curl or 7zip by something else.  
+
 ## How it works
 
 A `.diskord` file just contains base64 text in this form:  
