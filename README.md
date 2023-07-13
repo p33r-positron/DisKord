@@ -1,8 +1,6 @@
 # DisKord
 Always wanted to upload files bigger than 25Mo/500Mo on Discord ? I present to you DisKord !
 
-![](https://github.com/p33r-positron/DisKord/blob/main/Diskord.gif)
-
 ## How to use it
 
 Just drag and drop a `.diskord` file on diskord.exe, or use `node diskord.js <file.diskord>`. Use --help to know more.  
