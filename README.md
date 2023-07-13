@@ -14,6 +14,10 @@ If you use Microsoft Windows, I recommend using `DisKord_win32_7za_wget` which g
 If you use GNU/Linux, you should either install p7zip or modify the config.  
 You can modify the config, e.g. to replace wget by curl or 7zip by something else.  
 
+### Recommended for Windows
+
+Right click on diskord.exe, send to Desktop, then you can Drag & Drop. Easy as cake.  
+
 ## How it works
 
 A `.diskord` file just contains base64 text in this form:  
