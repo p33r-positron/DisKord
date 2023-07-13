@@ -1,0 +1,14 @@
+{
+    "unzipper": "7z",
+    "unzipcmd": "%unzipper% x %firstfile%",
+	"seeker": "7z",
+	"seekcmd": "%seeker% l -ba %firstfile% | head -n1 | cut -d " " -f6",
+	"downloader": "wget",
+	"downloadcmd": "%downloader% --quiet %url%",
+	"deletecmd": "rm -f %basefile%*",
+	"chker": "sha256sum",
+	"chkcmd": "%chker% %file% | head -n1 | cut -d \" \" -f1",
+	"zipper": "7z",
+	"zipcmd": "%zipper% a -v%size%m %name%.zip %file%",
+	"pause": "read -n1 -r"
+}

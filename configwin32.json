@@ -1,0 +1,14 @@
+{
+    "unzipper": "7za",
+    "unzipcmd": "%unzipper% x %firstfile%",
+	"seeker": "7za",
+	"seekcmd": "for /F \"tokens=6\" %I in ('%seeker% l -ba %firstfile% ^| findstr \" .*\"') do @echo %I",
+	"downloader": "wget",
+	"downloadcmd": "%downloader% --quiet %url%",
+	"deletecmd": "del %basefile%*",
+	"chker": "certutil",
+	"chkcmd": "powershell -c \"%chker% -hashfile %file% SHA256\" | findstr /V \":\"",
+	"zipper": "7za",
+	"zipcmd": "%zipper% a -v%size%m %name%.zip %file%",
+	"pause": "pause > nul"
+}
